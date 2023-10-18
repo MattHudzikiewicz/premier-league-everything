@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Avatar, TextField, Typography } from '@mui/material';
 import LockRoundedIcon from '@mui/icons-material/LockRounded';
-import { makeStyles } from "@mui/styles";
 import Paper from '@mui/material/Paper';
 import Grid from "@mui/material/Grid" 
 import ThemeSwitchInput from './UniversalInputs/ThemeSwitch';
@@ -24,8 +23,6 @@ function Copyright() {
     );
 }
 
-const useStyles = makeStyles((theme) => ({
-}));
 
 
 function FORMLOGIN() {
